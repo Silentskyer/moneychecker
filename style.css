@@ -1,0 +1,45 @@
+body{
+font-family:sans-serif;
+text-align:center;
+background:#f4f4f4;
+}
+
+.balance{
+font-size:28px;
+margin:20px;
+}
+
+.form input,
+.form select{
+padding:8px;
+margin:5px;
+}
+
+button{
+padding:8px 16px;
+cursor:pointer;
+}
+
+ul{
+list-style:none;
+padding:0;
+max-width:400px;
+margin:auto;
+}
+
+li{
+background:white;
+margin:8px;
+padding:10px;
+display:flex;
+justify-content:space-between;
+border-radius:6px;
+}
+
+.income{
+border-left:5px solid green;
+}
+
+.expense{
+border-left:5px solid red;
+}
