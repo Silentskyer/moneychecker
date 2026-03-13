@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>記帳網站</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>我的記帳本</h1>
+
+<div class="balance">
+可用金額：<span id="balance">0</span> 元
+</div>
+
+<div class="form">
+
+<input id="desc" placeholder="項目名稱">
+
+<input id="amount" type="number" placeholder="金額">
+
+<select id="type">
+<option value="income">收入</option>
+<option value="expense">支出</option>
+</select>
+
+<button onclick="addRecord()">新增</button>
+
+</div>
+
+<h2>紀錄</h2>
+
+<ul id="list"></ul>
+
+<script src="app.js"></script>
+
+</body>
+</html>
